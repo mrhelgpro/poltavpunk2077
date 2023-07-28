@@ -1,0 +1,51 @@
+@stopBgm Main-Menu
+@back Loc1
+@bgm Loc1-Start fade:1 wait:false
+@showUI IconMap
+
+;IF STEP
+@goto .Step1 if:"step<4"
+@goto .Step4 if:"step==4"
+@goto .Step5 if:"step==5"
+
+# Step1
+@char Nina.Default
+Nina: Вибач, не можу приділити тобі уваги? 
+@stop
+
+# Step4
+@set questLog="Зробити вибір"
+@char Nina pos:60,-80,0 look:left scale:1,1,1
+Nina: Я сильна незалежна жінки і хочу піти в армію, у ну віддай повістку мені!
+
+@char Nina pos:80,-80,1 look:left scale:0.9,0.9,0.9
+@char Lesya pos:30,-80,0 look:right scale:1,1,1
+Lesya: Так стоп, краще віддай це мені!!!
+
+@char Lesya pos:20,-80,1 look:right scale:0.9,0.9,0.9
+@char Nina pos:70,-80,0 look:left scale:1,1,1
+Nina: Ні, віддай мені!!!
+
+@set questLog=""
+
+;CHOICE
+@hidePrinter 
+@choice "Віддати Ніні"  set:item=1
+@choice "Віддати Лесі"  set:item=2
+@choice "Залишити собі" set:item=3
+
+@set questLog="Подивись у мапу"
+@set step=5;
+@hideChars
+@stop
+@stop
+
+# Step5
+@char Nina pos:60,-80,0 look:left scale:1,1,1
+@if item==1
+Nina: О привіт, рада тебе бачити)
+@else 
+Nina: Ти чого приперся?
+@endIf
+
+@stop

@@ -1,0 +1,47 @@
+@stopBgm Main-Menu
+@showUI IconMap
+@back Loc2
+@bgm Loc2-Club
+
+;IF STEP
+@goto .Step1 if:"step==1"
+@goto .Step2 if:"step==2"
+@goto .Step3 if:"step<=4"
+@goto .Step5 if:"step==5"
+
+# Step1
+@set questLog="Познайомитись з Лесей"
+
+@char Lesya pos:60,-80
+Lesya: О, привіт новенький, хочеш заспуваю пісню? 
+Lesya: Гарна Українка Яааа, Я таньцюю гопака?
+
+@hidePrinter 
+@choice "Це чудово"
+@choice "Десь я це вже чув"
+@stop
+
+Lesya: О дивись гра!
+@goto MiniGame
+
+# Step2
+@char Lesya pos:60,-80
+Lesya: Я тут трохи занята, сходи погуляй?
+@set questLog="Відвідай вулицю"
+@stop
+
+# Step3
+...Дивно, Лесі немає?
+@set step=4
+@set questLog="Відвідай хол"
+@stop
+
+# Step5
+@char Lesya pos:60,-80
+@if item==2
+Lesya: О привіт, рада тебе бачити)
+@else 
+Lesya: Ти чого приперся?
+@endIf
+
+@stop

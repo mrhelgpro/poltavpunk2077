@@ -1,0 +1,9 @@
+@stopBgm Main-Menu
+@showUI IconMap
+@back Loc3
+@bgm Loc3-Street
+
+@showUI Item
+@set questLog="Знайти предмет"
+
+@stop

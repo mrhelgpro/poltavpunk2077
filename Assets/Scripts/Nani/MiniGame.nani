@@ -1,0 +1,18 @@
+@hideAll
+
+@set questLog="Зіграти гру"
+
+...1
+...2
+...3
+...Обери будь яке число
+@choice "4"
+@choice "5"
+@choice "6"
+@stop
+@set step=2
+...Ти виграв
+
+@goto Level2
+
+@stop

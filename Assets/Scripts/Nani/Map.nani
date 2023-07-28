@@ -1,0 +1,16 @@
+@stopBgm Loc1-Start
+@stopBgm Loc2-Club
+@stopBgm Loc3-Street
+@stopBgm Loc1-Choice
+@hideUI Item
+
+@hideAll
+
+@back Map
+@bgm Main-Menu
+
+@set showStreet=true if:"step>=2"
+@set lockStreet=true if:"step>=3"
+
+@showUI GlobalMap
+@stop

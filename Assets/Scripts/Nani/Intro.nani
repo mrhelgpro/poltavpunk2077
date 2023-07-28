@@ -1,0 +1,30 @@
+# Start
+
+@set questLog="Познайомитись з Ніной"
+@set step=0 
+@showUI QuestManager
+@back Loc1
+@bgm Loc1-Start
+@char Nina pos:60,-80
+
+Nina: Так, ти хто такий, ану скажи паляниця? 
+Nina: Хоча стривай, по обличу бачу що не москаль. Як тебе звати?
+@hidePrinter 
+@input name summary:"Enter your name."
+@stop
+Nina: І що ж {name}, тебе привело у Полтавсіті?
+
+;CHOICE
+@hidePrinter 
+@choice "Поступив на перший курс у ПТУ№7"
+@choice "Приїхав до бабусі"
+@stop
+
+Nina: Ну і добре, сходи у клуб розвійся!
+@hidePrinter 
+
+@set questLog="Відвідай клуб"
+@set step=1
+@showUI IconMap
+
+@stop
