@@ -210,7 +210,7 @@ MonoBehaviour:
     Resources:
     - name: Loc1
       pathPrefix: Backgrounds/MainBackground
-      guid: 9158546a2cfb39446a8f511750e77db2
+      guid: c04f4303450d1fd408657d8dd1fa0ad5
     - name: Loc2
       pathPrefix: Backgrounds/MainBackground
       guid: 61ff7d0e6bc908c41af5ea999cef16ad

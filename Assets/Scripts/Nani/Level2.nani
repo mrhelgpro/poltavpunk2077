@@ -31,6 +31,7 @@ Lesya: Я тут трохи занята, сходи погуляй?
 @stop
 
 # Step3
+@set questLog="..."
 ...Дивно, Лесі немає?
 @set step=4
 @set questLog="Відвідай хол"

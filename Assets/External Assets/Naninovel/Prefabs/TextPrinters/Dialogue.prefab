@@ -341,7 +341,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7d24045dcfc9abb4b809014e4a26b613, type: 3}
+    m_Font: {fileID: 12800000, guid: 00dfe23bef44aac43a19a11cd7f6a743, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -353,11 +353,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis vitae
-    tellus a pharetra. Aenean vitae ipsum in est lobortis vulputate a blandit ipsum.
-    Nullam in felis purus. Donec gravida tincidunt dui, non ultricies lorem. Proin
-    euismod tellus at iaculis volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit. Nunc mollis vienean vitae ipsum in est lobortis vulputate a blandit ipsum. '
+  m_Text: "\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 \u043C\u043E\u0432\u0430
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis vitae tellus
+    a pharetra. Aenean vitae ipsum in est lobortis vulputate a blandit ipsum. Nullam
+    in felis purus. Donec gravida tincidunt dui, non ultricies lorem. Proin euismod
+    tellus at iaculis volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing
+    elit. Nunc mollis vienean vitae ipsum in est lobortis vulputate a blandit ipsum. "
   revealFadeWidth: 100
   slideClipRect: 1
   italicSlantAngle: 10
@@ -767,7 +768,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7d24045dcfc9abb4b809014e4a26b613, type: 3}
+    m_Font: {fileID: 12800000, guid: 00dfe23bef44aac43a19a11cd7f6a743, type: 3}
     m_FontSize: 40
     m_FontStyle: 1
     m_BestFit: 0

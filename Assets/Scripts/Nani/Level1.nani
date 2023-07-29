@@ -16,7 +16,7 @@ Nina: Вибач, не можу приділити тобі уваги?
 # Step4
 @set questLog="Зробити вибір"
 @char Nina pos:60,-80,0 look:left scale:1,1,1
-Nina: Я сильна незалежна жінки і хочу піти в армію, у ну віддай повістку мені!
+Nina: Я сильна незалежна жінки і хочу піти в армію, ану віддай повістку мені!
 
 @char Nina pos:80,-80,1 look:left scale:0.9,0.9,0.9
 @char Lesya pos:30,-80,0 look:right scale:1,1,1
@@ -26,18 +26,16 @@ Lesya: Так стоп, краще віддай це мені!!!
 @char Nina pos:70,-80,0 look:left scale:1,1,1
 Nina: Ні, віддай мені!!!
 
-@set questLog=""
-
 ;CHOICE
 @hidePrinter 
 @choice "Віддати Ніні"  set:item=1
 @choice "Віддати Лесі"  set:item=2
 @choice "Залишити собі" set:item=3
 
-@set questLog="Подивись у мапу"
-@set step=5;
 @hideChars
 @stop
+@set questLog="..."
+@set step=5;
 @stop
 
 # Step5
