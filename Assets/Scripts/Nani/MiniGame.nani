@@ -1,6 +1,7 @@
 @hideAll
-
-@set questLog="Зіграти гру"
+@save
+@set questLog="Пограйте в гру"
+@set questLogEn="Play the game" 
 
 ...1
 ...2
@@ -11,6 +12,7 @@
 @choice "6"
 @stop
 @set step=2
+@save
 ...Ти виграв
 
 @goto Level2

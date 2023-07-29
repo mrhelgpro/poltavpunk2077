@@ -1,0 +1,27 @@
+; Ukrainian <uk> to English <en> localization document for `MiniGame` naninovel script
+
+# 25c7c12b
+; ...1
+
+# 8fe9bfd
+; ...2
+
+# 6f27bc4
+; ...3
+
+# 929ad825
+; ...Обери будь яке число
+...Choose any number
+
+# 4f7c4806
+; @choice "4"
+
+# 53450dec
+; @choice "5"
+
+# c0c56b3d
+; @choice "6"
+
+# a2d98504
+; ...Ти виграв
+...You won

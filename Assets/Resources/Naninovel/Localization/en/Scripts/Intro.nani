@@ -1,0 +1,29 @@
+; Ukrainian <uk> to English <en> localization document for `Intro` naninovel script
+
+# 4e01be87
+; Nina: Так, ти хто такий, ану скажи паляниця? 
+Nina: Who are you, tell me the password? 
+
+# 6a8e21f7
+; Nina: Хоча стривай, по обличу бачу що не москаль. Як тебе звати?
+Nina: Although wait, I see by your face that you are not a Muscovite. What's your name?
+
+# b6a65b7b
+; @input name summary:"Enter your name."
+@input name summary:"Enter your name."
+
+# b0beefce
+; Nina: І що ж {name}, тебе привело у Полтавсіті?
+Nina: So, {name}, what brings you to Poltavcity?
+
+# 2f73cd92
+; @choice "Поступив на перший курс у ПТУ№7"
+@choice "I entered the first year of vocational school"
+
+# 9a08d16
+; @choice "Приїхав до бабусі"
+@choice "I came to visit my grandmother"
+
+# e62b61e8
+; Nina: Ну і добре, сходи у клуб розвійся!
+Nina: That's fine, go to the club and have fun!

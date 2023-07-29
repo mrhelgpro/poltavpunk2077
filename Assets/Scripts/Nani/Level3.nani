@@ -5,5 +5,6 @@
 
 @showUI Item
 @set questLog="Знайти предмет"
+@set questLogEn="Find an item" 
 
 @stop

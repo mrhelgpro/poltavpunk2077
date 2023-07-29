@@ -9,12 +9,15 @@
 @goto .Step5 if:"step==5"
 
 # Step1
+@save
 @char Nina.Default
 Nina: Вибач, не можу приділити тобі уваги? 
 @stop
 
 # Step4
+@save
 @set questLog="Зробити вибір"
+@set questLogEn="Make a choice" 
 @char Nina pos:60,-80,0 look:left scale:1,1,1
 Nina: Я сильна незалежна жінки і хочу піти в армію, ану віддай повістку мені!
 
@@ -31,14 +34,18 @@ Nina: Ні, віддай мені!!!
 @choice "Віддати Ніні"  set:item=1
 @choice "Віддати Лесі"  set:item=2
 @choice "Залишити собі" set:item=3
+@save
 
 @hideChars
 @stop
 @set questLog="..."
+@set questLogEn="..." 
 @set step=5;
+@save
 @stop
 
 # Step5
+@save
 @char Nina pos:60,-80,0 look:left scale:1,1,1
 @if item==1
 Nina: О привіт, рада тебе бачити)

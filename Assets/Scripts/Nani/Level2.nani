@@ -10,7 +10,9 @@
 @goto .Step5 if:"step==5"
 
 # Step1
+@save
 @set questLog="Познайомитись з Лесей"
+@set questLogEn="Meet Lesya" 
 
 @char Lesya pos:60,-80
 Lesya: О, привіт новенький, хочеш заспуваю пісню? 
@@ -25,19 +27,26 @@ Lesya: О дивись гра!
 @goto MiniGame
 
 # Step2
+@save
 @char Lesya pos:60,-80
 Lesya: Я тут трохи занята, сходи погуляй?
 @set questLog="Відвідай вулицю"
+@set questLogEn="Visit the street" 
 @stop
 
 # Step3
+@save
 @set questLog="..."
+@set questLogEn="..." 
 ...Дивно, Лесі немає?
 @set step=4
+@save
 @set questLog="Відвідай хол"
+@set questLogEn="Visit the hall" 
 @stop
 
 # Step5
+@save
 @char Lesya pos:60,-80
 @if item==2
 Lesya: О привіт, рада тебе бачити)

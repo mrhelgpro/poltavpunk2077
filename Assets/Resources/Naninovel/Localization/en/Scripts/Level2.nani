@@ -1,0 +1,37 @@
+; Ukrainian <uk> to English <en> localization document for `Level2` naninovel script
+
+# 27ab6e6
+; Lesya: О, привіт новенький, хочеш заспуваю пісню? 
+Oh, hey, new guy, want to sing a song? 
+
+# d6db9099
+; Lesya: Гарна Українка Яааа, Я таньцюю гопака?
+Lesya: Beautiful Ukrainian girl Yaaaa, I dance hopak?
+
+# 6c37124c
+; @choice "Це чудово"
+@choice "It's wonderful"
+
+# 9370cb3c
+; @choice "Десь я це вже чув"
+@choice "I've heard this before"
+
+# e083dde6
+; Lesya: О дивись гра!
+Lesya: Oh look the game!
+
+# 68c41f8f
+; Lesya: Я тут трохи занята, сходи погуляй?
+I'm a little busy here, go for a walk?
+
+# 78cdd139
+; ...Дивно, Лесі немає?
+...Strange, Lesya's not here?
+
+# 428350e7
+; Lesya: О привіт, рада тебе бачити)
+Lesya: Oh hi, good to see you)
+
+# d47deb2b
+; Lesya: Ти чого приперся?
+Lesya: What are you doing here?

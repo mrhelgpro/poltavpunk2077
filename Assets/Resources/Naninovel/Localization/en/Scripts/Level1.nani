@@ -1,0 +1,37 @@
+; Ukrainian <uk> to English <en> localization document for `Level1` naninovel script
+
+# 85b746c8
+; Nina: Вибач, не можу приділити тобі уваги? 
+Nina: Sorry, I can't pay attention to you? 
+
+# ca932f07
+; Nina: Я сильна незалежна жінки і хочу піти в армію, ану віддай повістку мені!
+Nina: I'm a strong independent woman and I want to go to the army, give me the draft notice!
+
+# e0731a29
+; Lesya: Так стоп, краще віддай це мені!!!
+Lesya: So stop, better give it to me!!!
+
+# 4dd21730
+; Nina: Ні, віддай мені!!!
+No, give it to me!!!
+
+# 75987289
+; @choice "Віддати Ніні"  set:item=1
+@choice "Give it to Nina" set:item=1
+
+# a4aa017d
+; @choice "Віддати Лесі"  set:item=2
+@choice "Give to Lesya" set:item=2
+
+# b5e4858
+; @choice "Залишити собі" set:item=3
+@choice "Keep for myself" set:item=3
+
+# a860cf37
+; Nina: О привіт, рада тебе бачити)
+Nina: Oh hey, good to see you)
+
+# 74d2161c
+; Nina: Ти чого приперся?
+Nina: What are you doing here?

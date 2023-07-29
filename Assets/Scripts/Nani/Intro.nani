@@ -1,6 +1,8 @@
 # Start
 
-@set questLog="Познайомитись з Ніной"
+@set questLog="Познайомитись з Ніной" 
+@set questLogEn="Meet Nina" 
+
 @set step=0 
 @showUI QuestManager
 @back Loc1
@@ -24,7 +26,9 @@ Nina: Ну і добре, сходи у клуб розвійся!
 @hidePrinter 
 
 @set questLog="Відвідай клуб"
+@set questLogEn="Visit the club" 
 @set step=1
+@save
 @showUI IconMap
 
 @stop
