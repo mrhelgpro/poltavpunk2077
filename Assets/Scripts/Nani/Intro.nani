@@ -11,6 +11,7 @@
 
 Nina: Так, ти хто такий, ану скажи паляниця? 
 Nina: Хоча стривай, по обличу бачу що не москаль. Як тебе звати?
+
 @hidePrinter 
 @input name summary:"Enter your name."
 @stop

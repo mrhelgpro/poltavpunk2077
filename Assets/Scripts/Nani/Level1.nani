@@ -41,16 +41,14 @@ Nina: Ні, віддай мені!!!
 @set questLog="..."
 @set questLogEn="..." 
 @set step=5;
-@save
-@stop
 
 # Step5
 @save
 @char Nina pos:60,-80,0 look:left scale:1,1,1
 @if item==1
-Nina: О привіт, рада тебе бачити)
+Nina: О мій найкращій друг)
 @else 
-Nina: Ти чого приперся?
+Nina: Ненавиджу тебе?
 @endIf
 
 @stop

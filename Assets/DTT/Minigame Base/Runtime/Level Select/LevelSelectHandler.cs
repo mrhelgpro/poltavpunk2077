@@ -28,6 +28,9 @@ namespace DTT.MinigameBase.LevelSelect
         [SerializeField]
         [Tooltip("Whether to immediately return to the Level Select when the IMinigame.Finish is invoked.")]
         private bool _returnToLevelSelectOnFinish;
+
+        [SerializeField]
+        private GameObject _mainCanvas;
         
         /// <summary>
         /// The UI was opened.
@@ -71,6 +74,7 @@ namespace DTT.MinigameBase.LevelSelect
         {
             _minigame = FindObjectOfType<TMinigame>();
 
+            /*
             AsyncOperation async = SceneManager.LoadSceneAsync(LevelSelect.SCENE_NAME, LoadSceneMode.Additive);
             
             if (async == null)
@@ -87,6 +91,12 @@ namespace DTT.MinigameBase.LevelSelect
                 _levelSelect.Populate(_levelDatabase);
                 _levelSelect.LevelSelected += OnLevelSelected;
             };
+            */
+        }
+
+        protected void Start()
+        {
+            OnLevelSelected();
         }
 
         /// <summary>
@@ -110,6 +120,11 @@ namespace DTT.MinigameBase.LevelSelect
             _minigame.StartGame(GetConfig(levelData.levelNumber));
             HideLevelSelect();
         }
+        protected virtual void OnLevelSelected()
+        {
+            _currentLevel = 1;
+            _minigame.StartGame(GetConfig(1));
+        }
 
         /// <summary>
         /// Called when the minigame has finished with the result of the user.
@@ -118,6 +133,11 @@ namespace DTT.MinigameBase.LevelSelect
         /// <param name="result">The result of the user.</param>
         protected virtual void OnMinigameFinished(TResult result)
         {
+            Debug.Log("FINISH!!!!");
+
+            _mainCanvas.SetActive(false);
+
+            /*
             float score = CalculateScore(result);
             int index = _levelSelect.SelectedLevel.LevelNumber - 1;
 
@@ -132,6 +152,7 @@ namespace DTT.MinigameBase.LevelSelect
             
             if(_returnToLevelSelectOnFinish)
                 ShowLevelSelect();
+                */
         }
 
         /// <summary>

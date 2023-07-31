@@ -24,7 +24,8 @@ Lesya: Гарна Українка Яааа, Я таньцюю гопака?
 @stop
 
 Lesya: О дивись гра!
-@goto MiniGame
+@showUI MiniGame
+@set step=2
 
 # Step2
 @save
@@ -38,11 +39,11 @@ Lesya: Я тут трохи занята, сходи погуляй?
 @save
 @set questLog="..."
 @set questLogEn="..." 
-...Дивно, Лесі немає?
 @set step=4
-@save
+...Дивно, Лесі немає?
 @set questLog="Відвідай хол"
 @set questLogEn="Visit the hall" 
+@save
 @stop
 
 # Step5
